@@ -1,0 +1,281 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+.secondaryPalette {
+	background-color:#eeeeee;
+	border-top-style:solid;
+	border-top-width:4px;
+}
+
+.apexp .secondaryPalette {
+	border-top-color:#f99d1c;
+}
+
+.mainPageDiv {
+	margin: 0pt auto; 
+	width: 800px; 
+	position: relative;
+}
+
+body {
+	background-color:#FFFFFF;
+	font-family:'Open Sans','Helvetica',sans-serif;
+	font-size:75%;
+	margin:0;
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+
+.bPageTitle .ptBody .pageType .pageDescription {
+	margin-left: 5px;
+	font-size:109%;
+	font-weight:bold;
+}
+
+.pageTitleIcon {
+	display:inline;
+	float:left;
+	margin-right:0px;
+	width:0px;
+	height:0px;
+	background-image:none;
+}
+
+.titleSeparatingColon {
+	display:none;
+	clear:both;
+}
+
+.bPageTitle .content .blank {
+	clear:both;
+	font-size:0;
+}
+
+.pbTitle {
+	color:#222222;
+	font-size:91%;
+	margin:0;
+	vertical-align:middle;
+	width:400px;
+}
+
+.pbHeader {
+	padding-top:4px;
+	border-bottom:1px solid #FFFFFF;
+	margin:0 2px 0 0;
+	padding-bottom:2px;
+	font-family:'Open Sans','Helvetica',sans-serif;
+}
+
+.pbBottomButtons {
+	padding-top:2px;
+	padding-bottom:4px;
+	border-top:1px solid #FFFFFF;
+}
+.pbButton {
+	text-align:center;
+	border:medium none;
+}
+.pbHeader .pageButton, .pbBottomButtons .pageButton {
+	background-color:#f99d1c;
+	color:#FFFFFF;
+}
+.pageButtonDisabled {
+	background-color:#a0a0a0;
+	color:#ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Open Sans','Helvetica',sans-serif;
+	font-size:100%;
+	margin:0 5px;
+}
+h1 {
+	font-size:140%;
+}
+h3 {
+	font-size:91%;
+}
+img {
+	border:0 none;
+}
+.error {
+	margin: 40px 5px;
+}
+.completed {
+	margin: 40px 5px;
+}
+.message {
+	color:#ff0000;
+	font-weight:bold;
+}
+.formPreText {
+	margin: 10px 5px;
+	background-color:#fff000;
+	color:#fff000
+}
+.formPostText {
+	margin: 10px 5px;
+}
+.pagePreText {
+	margin: 10px 5px;
+}
+.pagePostText {
+	margin: 10px 5px;
+}
+.questionTitle {
+	margin: 10px 0px 2px 0px;
+	font-weight:bold;
+	font-size:91%;
+	padding: 0px 5px 0px 5px;
+}
+.questionSubTitle {
+	margin: 2px 0px 10px 0px;
+	font-size:91%;
+	padding: 0px 5px 0px 5px;
+}
+.questionPreText {
+	margin: 10px 0px 2px 0px;
+	font-size:91%;
+	padding: 0px 5px 0px 5px;
+}
+.questionPostText {
+	font-size:91%;
+	padding: 0px 5px 10px 5px;
+}
+.pageTitle {
+	margin-top: 10px;
+}
+ul li, ol li {
+	margin-left:1.5em;
+	padding-left:0;
+}
+.questionTable {
+	width: 100%;
+}
+.questionPrompt {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size:91%;
+	text-align: right;
+	vertical-align: top;
+	width: 33%;
+}
+.questionPromptRequired {
+	margin-left: 5px;
+	margin-right: 0px;
+	padding-right:3px;
+	border-right: 2px #0044C0 solid;
+	font-size:91%;
+	text-align: right;
+	vertical-align: top;
+	width: 33%;
+}
+.questionResponse {
+	font-size:91%;
+	text-align: left;
+	vertical-align: top;
+	width: 67%;
+}
+.questionResponseRequired {
+	font-size:91%;
+	text-align: left;
+	vertical-align: top;
+	width: 67%;
+}
+input {
+	padding-top:0;
+	font-size:100%;
+	font-family:'Open Sans','Helvetica',sans-serif;
+	margin:0 5px 0 0;
+}
+textarea {
+	font-size:100%;
+	font-family:'Open Sans','Helvetica',sans-serif;
+}
+select {
+	font-size:100%;
+	font-family:'Open Sans','Helvetica',sans-serif;
+	color:#000000;
+}
+select option, select optgroup {
+	font-size:100%;
+	font-family:'Open Sans','Helvetica',sans-serif;
+}
+.radioPrompt {
+}
+.radioVerticalOption {
+	text-indent: -20px;
+	padding-left: 20px;
+}
+.helpPopup {
+	background-color:#F0E68C;
+	display:none;
+	position:absolute;
+	width:450px;
+	padding:5px;
+	border: 1px solid #202020;
+	text-align: left;
+}
+.pbTitle {
+	width:inherit;
+}
+.pbHeader table{ margin-left: auto;  margin-right: auto;}
+.pbBottomButtons table{ margin-left: auto;  margin-right: auto;}
+
+.tabPanel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tabBlock {
+    margin:0 auto;
+}
+.tabBlock a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #000000; text-decoration: none;
+    font-weight:bold;
+    border-style:solid solid none;
+	border-width:1px 1px medium;
+	border-color: #b0b0b0;
+    background-color: #f0f0f0; 
+}
+.tabBlock a.current {
+    color: #66CC00;
+	border-color: #66CC00;
+}
+.tabBlock a:hover {
+    background-color:#66CC00;
+    color: #000000; text-decoration: none;
+}
+
+{
+	background-color:#eeeeee;
+border-bottom:1px solid #f99d1c;
+border-top-style:solid;
+border-top-width:4px;
+border-top-color:#f99d1c;
+}
+
+.formTitle{
+	font-size: 200%;
+}
+
+.searchFieldText {
+    width: 294px;
+    height: 19px;
+    border: 2px #f99d1c solid;
+    border-radius: 5px 0 0 5px;
+    padding-left: 6px;
+    color: #aaa;
+    font-size: 11px;
+    font-family: 'OpenSansRegular',sans-serif;
+    float: right;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
