@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .secondaryPalette {
 	background-color:#eeeeee;
@@ -67,7 +67,7 @@ form {
 	margin:0 2px 0 0;
 	padding-bottom:2px;
 	font-family:'Open Sans','Helvetica',sans-serif;
-	background-color:#eeeeee
+	background-color:#eeeeee;
 }
 
 .pbBottomButtons {
