@@ -262,6 +262,9 @@ select option, select optgroup {
 
 .formTitle {
     font-size: 30px;
-    min-height: 75px;
-    line-height: 3;
+    min-height: 100px;
+    line-height: 4;
+    background-image: url("https://solarwindshr--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015b00000004quW&oid=00Db0000000HDl8&lastMod=1348069646000");
+    background-repeat: no-repeat;
+    background-position-x: 500px;
 }
